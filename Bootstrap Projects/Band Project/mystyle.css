@@ -1,0 +1,32 @@
+.cs-navbar{
+    padding: 0px;
+     
+}
+header > nav a{
+    color: white;
+}
+header a:hover{
+    background-color: azure;
+    color: black;
+}
+.cs-icon{
+    color: white;  
+}
+.cs-icon:hover{
+    color: black;
+    background-color: azure; 
+}
+.myhover{
+    color: white;
+    border: none;
+    background-color: black;
+
+}
+.myhover:hover{
+    background-color: azure;
+    color: black;
+}
+.footer-icon{
+    font-size: 40px;
+}
+

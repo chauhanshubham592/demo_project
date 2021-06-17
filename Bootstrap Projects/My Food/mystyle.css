@@ -1,0 +1,41 @@
+.sidebar{
+    width:50%;
+    background-color: white;
+    transition: all 1s;
+    z-index: 100;
+}
+header{
+    background-color: black;
+    top: 0px;
+}
+.cs-button{
+    padding: 0px;
+
+}
+.cs-bar{
+    color:white;
+    background-color: black;
+}
+ .cs-page{
+     color: black;
+ }
+ .cs-page:hover{
+     color: white;
+     background-color: black;
+ }
+ .cs-page-active{
+    color: white;
+    background-color: black;
+}
+.cs-page-active:hover{
+    color: white;
+    background-color: black;
+}
+.my-hover:hover{
+    background-color: rgb(223, 233, 233);
+}
+@media (min-width:992px){
+    .sidebar{
+        width: 40%;
+    }
+}

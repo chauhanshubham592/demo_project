@@ -1,0 +1,67 @@
+header{
+    width: 100%;
+    position: fixed;
+    box-shadow: 0px 2px 10px 3px black;
+}
+.cs-nav{
+    margin:0px;
+    padding: 0px;
+    background-color: tomato;
+}
+header > nav a{
+    color: white;
+}
+header > nav a:hover{
+    background-color: azure;
+   
+}
+.cs-icon{
+    color: white;  
+}
+.cs-toggler{
+    padding: 0px;   
+}
+.cs-icon:hover{
+    color: black;
+    background-color: azure; 
+}
+#banner{
+    color: white;
+    background-color: tomato;
+    height: 70vh;
+}
+#banner > div > h1{
+    font-size: 70px;
+}
+#banner > div > p{
+    font-size: 25px;
+}
+#banner > div > button{
+    background-color: black;
+    color: white;
+    border: none;
+}
+#banner > div > button:hover{
+    background-color: azure;
+    color: black;
+}
+.cs-anchor{
+    color: tomato;
+    font-size: 200px;
+    margin-top: 70px;
+}
+.text-justify{
+    text-align: justify;
+}
+.footer-text{
+    background-color: #656565;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer-icon{
+    font-size: 40px;
+}
+@media (max-width: 576px){
+    
+}

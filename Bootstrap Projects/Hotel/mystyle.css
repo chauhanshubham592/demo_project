@@ -1,0 +1,85 @@
+header > nav > a{
+    text-decoration: none;
+    color: white;
+}
+header > a{
+    text-decoration: none;
+    color: white;
+
+}
+.cs-active{
+    background-color: orangered;
+  
+}
+a:hover:not(.cs-active){
+    background-color: rgb(243, 235, 235);
+    color: black;
+}
+header > a{
+    background-color: seagreen;   
+}
+#banner{
+    background-image: url(hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    object-fit: cover;
+}
+#mybooking{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+#mybooking > h2{
+    background-color: orangered;
+    color: white;
+    font-size: 28px;
+}
+
+#about-us{
+    text-align: justify;
+}
+#myalert{
+    background-color: orangered;
+    color: white;
+}
+.cs-offer{
+    background-color: black;
+    opacity: 0.6;
+    color: white;
+}.cs-offer:hover{
+    background-color: black;
+    opacity: 1;
+}
+.cs-offer input[type="submit"]{
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+#mymessage  input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+}
+#mymessage  input[type="submit"]:hover{
+    background-color: rgb(223, 220, 209);
+    color: black;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+}
+@media (min-width: 600px){
+    #mybooking{
+        width: 65%;
+        
+    }
+}
+@media (min-width: 992px){
+    #mybooking{
+        width: 50%;
+        
+    }
+}
+
