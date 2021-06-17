@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Acme Website | Services</title>
+        <meta name="description" content="A website about web developement">
+        <meta name="keyword" content="Website evelopement, HTML, CSS">
+        <meta name="author" content="DARK">
+        <meta naem="viewport" content="width=device-width, intial-scale=1.0">
+        <link rel="stylesheet" href="acme.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="highlight">Acme</span> Web Design</h1>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="About.html">ABOUT</a></li>
+                        <li class="active"><a href="Services.html">SERVICES</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section id="newsletter">
+            <div class="container">
+                <div class="newsletter_branding">
+                    <h1>Subscribe To Our Newsletter</h1>
+                </div>
+                <form>
+                    <input type="email" placeholder="Enter Your Email...">
+                    <input type="submit" value="Subscribe" class="button_1">
+                </form>
+            </div>  
+        </section>
+
+        <section id="services">
+            <div class="container">
+                <ul>
+                    <li>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.
+                        </p>
+                        <p>Pricing: $1,000 - $3,000</p>
+                    </li>
+                    <li>
+                        <h3>Website Maintenance</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.
+                        </p>
+                        <p>Pricing: $250 per month</p>
+                    </li>
+                    <li>
+                        <h3>Website Hosting</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus mi augue, viverra sit amet ultricies at, vulputate id lorem. Nulla facilisi.
+                        </p>
+                        <p>Pricing: $25 per month</p>
+                    </li>
+                </ul>
+                <aside id="servicesaside" class="asidebar dark">
+                    <form>
+                        <h3>Get A Quote</h3>
+                        <label for="name" class="label">Name</label><br>
+                        <input type="text" id="name" placeholder="Enter Your Name"><br>
+                        <label for="mail" class="label">Email</label><br>
+                        <input type="email" id="mail" placeholder="Enter Your Email"><br>
+                        <label for="message" class="label">Message</label><br>
+                        <textarea placeholder="Enter Your Message"></textarea>
+                        <button type="submit" class="button_1">Send</button> 
+                    </form>
+                </aside>
+            </div>
+        </section>
+        <footer>
+            <p>Acme Web Design | Copyright &copy; 2021</p>
+        </footer>
+    </body>    
+</html>

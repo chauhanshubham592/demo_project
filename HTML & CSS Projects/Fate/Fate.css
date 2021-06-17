@@ -1,0 +1,215 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+body{
+	background-color: #e3e3e3;
+}
+#wrapper{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid black;
+}
+nav{
+	background-color: red;
+	
+}
+#header > a{
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 1px 20px ;
+	font-size: 25px;
+}
+.navbar ul{
+	list-style: none;
+	float: right;
+	display: inline-block;
+}
+ul li{
+	display: inline-block;
+	line-height: 30px;
+	padding: 8px;
+}
+ul:last-child{
+	padding-right: 20px;
+}
+li > a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 7px;
+	border-radius: 20px;
+}
+li > a:hover{
+	background-color: black;
+	
+}
+li > input{
+	border: none;
+	padding: 2px;
+}
+nav::after{
+	content: " ";
+	display: block;
+	clear: both;
+	*zoom: 1;
+}
+
+.cbanner{
+	width: 100%;
+	height: 500px;	
+}
+.cbanner > img{
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+	border: 5px solid black;
+}
+
+.cseries{
+	background-color: white;
+	
+}
+.cseries > h2{
+	padding-top: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+.ss{
+	width:325px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 45px;
+	padding-right: 30px;
+	border-right: 1px solid;
+}
+.ss:last-child{
+	border: none;
+	
+	
+}
+.serieswall{
+	border: none;
+	height: 150px;
+	
+		
+}
+
+.serieswall > figure > img{
+	width: 250px;
+	height: 150px;
+	object-fit: cover;
+}
+figcaption{
+	text-align: center;
+	font-weight: bold;
+	color: red;
+	font-size: 15px;
+}
+table{
+	margin-top: 40px;
+	
+}
+td:nth-child(odd){
+	font-weight: bold;
+	text-align: right;
+	vertical-align: top;
+	padding-right: 3px;
+}
+
+.knowmore > a{
+	text-decoration: none;
+	background-color: red;
+	padding: 2px;
+	border: 1px solid;
+	border-radius: 20px;
+	font-size: 15px;
+	margin-left: 32%;	
+	color: white;
+}
+.knowmore > a:hover{
+	background-color: black;
+}
+.knowmore{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.cseries, .cmovies{
+	border: 5px solid;
+	background-color: white;
+}
+.seriesclass::after{
+	content: " ";
+	display: block;
+	clear: both;
+	*zoom: 1;
+	
+}
+.cmovies > h2{
+	padding-top: 10px;
+	font-size: 40px;
+	text-align: center;
+}
+.mm{
+	width:325px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 45px;
+	padding-right: 30px;
+	border-right: 1px solid;
+}
+.mm > figure > img{
+	width: 250px;
+	height: 150px;
+	object-fit: cover;
+}
+#movies3{
+	border: none;
+	
+}
+.moviesclass::after{
+	content: " ";
+	display: block;
+	clear: both;
+	*zoom: 1;
+}
+.ctrailer{
+	background-color: white;
+	border: 5px solid;
+	
+}
+.video > video{
+	width: 80%;
+	margin: 5% 10%;	
+}
+.ctrailer > p{
+	text-align: center;
+	margin-top: -5%;
+	padding-bottom: 4%;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: underline;	
+}
+span{
+	color: red;
+}
+#footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	font-size: 18px;
+}
+#footer > p > a{
+	s
+	color: red;
+}
+
+	
+
+	
+	
+	
