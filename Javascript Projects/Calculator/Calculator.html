@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form name="myform">
+        <input type="text" id="display-history"><br>
+        <input type="text" id="display"><br>
+        <table>
+            <tr>
+                <td><input type="button" value="C" class="clear"></td>
+                <td><input type="button" value="Del" class="delete"></td>
+                <td><input type="button" value="/" class="operator"></td>
+                <td><input type="button" value="*" class="operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" class="number"></td>
+                <td><input type="button" value="8" class="number"></td>
+                <td><input type="button" value="9" class="number"></td>
+                <td><input type="button" value="-" class="operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" class="number"></td>
+                <td><input type="button" value="5" class="number"></td>
+                <td><input type="button" value="6" class="number"></td>
+                <td><input type="button" value="+" class="operator"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" class="number"></td>
+                <td><input type="button" value="2" class="number"></td>
+                <td><input type="button" value="3" class="number"></td>
+                <td rowspan="2"><input type="button" value="=" class="equal" style="height:45px;"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" class="number"></td>
+                <td colspan="2"><input type="button" value="00" class="number" style="width:100%"></td>
+            </tr>
+        </table>
+    </form>
+
+    <script>
+        function numberDisp(){
+            document.getElementById("display").value+=this.value;
+        }
+        const number=document.getElementsByClassName("number");
+        for(let i=0; i<number.length;i++){
+            number[i].addEventListener("click",numberDisp)
+        }
+        const operator=document.getElementsByClassName("operator");
+        for(let i=0; i<operator.length;i++){
+            operator[i].addEventListener("click",numberDisp)
+        }
+        function clear(){
+            document.getElementById("display").value=""
+        }
+        document.getElementsByClassName("clear")[0].addEventListener("click",clear)
+        function deleteNumber(){
+            document.getElementById("display").value= document.getElementById("display").value.slice(0,document.getElementById("display").value.length-1)
+        }
+        document.getElementsByClassName("delete")[0].addEventListener("click", deleteNumber)
+        function calculation(){
+            document.getElementById("display-history").value=document.getElementById("display").value
+            document.getElementById("display").value=eval(document.getElementById("display").value)
+        }
+        document.getElementsByClassName("equal")[0].addEventListener("click", calculation)
+
+        
+    </script>
+        
+</body>
+</html>
