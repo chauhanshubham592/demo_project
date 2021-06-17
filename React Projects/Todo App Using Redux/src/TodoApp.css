@@ -1,0 +1,44 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: darkslategray;
+}
+.myheader {
+  background-color: orangered;
+  color: white;
+  box-shadow: 5px 5px 20px 5px black;
+}
+.mylogo {
+  font-size: 65px;
+  color: white;
+}
+.mybrand {
+  font-size: 40px;
+  margin-top: -10px;
+}
+.myuser {
+  font-size: 20px;
+}
+.mylogin {
+  margin-top: 60px;
+}
+.add_todo {
+  margin-top: 60px;
+}
+.mybtn {
+  font-size: 30px;
+  cursor: pointer;
+}
+.myfilter {
+  cursor: pointer;
+}
+.myuserlogo {
+  margin-top: -5px;
+  font-size: 40px;
+}
+.logout_btn {
+  background-color: darkslategray;
+}
